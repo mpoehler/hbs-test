@@ -6,6 +6,8 @@ which comes with Java8. I'm running [kontaktlinsen-preisvergleich.de](https://ko
 Of course I use Handlebars-Helpers and other stuff, so the issue was not so obvious for me. For that reason I extended the [appengine-quickstart-example](https://cloud.google.com/appengine/docs/standard/java/quickstart)
 with a Servlet doing some handlebar stuff to show the problem.
 
+## Problem
+
 To see the problem, clone this repo, run 
 `./gradlew appengineRun` 
 and open [localhost:8080/hello-hbs](http://localhost:8080/hello-hbs)
